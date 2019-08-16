@@ -25,6 +25,9 @@
 # Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
+.gradle
+**.iml
+.idea/**/*.xml
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -90,26 +93,3 @@ fabric.properties
 *.zip
 *.tar.gz
 *.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-Removeria .gitignore
-Removeria .gradle/
-Removeria .idea/$CACHE_FILE$
-Removeria .idea/$PRODUCT_WORKSPACE_FILE$
-Removeria .idea/.gitignore
-Removeria .idea/codeStyles
-Removeria .idea/compiler.xml
-Removeria .idea/controller-functional.iml
-Removeria .idea/inspectionProfiles/
-Removeria .idea/misc.xml
-Removeria .idea/modules.xml
-Removeria .idea/modules/
-Removeria .idea/vcs.xml
-Removeria gradle/wrapper/gradle-wrapper.properties
-Removeria src/main/groovy/
-Removeria src/main/resources/
-Removeria src/test/groovy/
-Removeria src/test/resources/
-Removeria .gradle/4.10.3/vcsMetadata-1/
-Removeria .gradle/5.2.1/vcsMetadata-1/
