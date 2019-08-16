@@ -1,69 +1,67 @@
-package test;
+package controladora;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.*;
 
-import controladora.Controladora;
-
-class ControladoraTest {
+public class ControladoraTest {
 
 	@Test
-	void executarTest1() {
+	public void executarTest1() {
 		Controladora controladora = new Controladora();
 		assertEquals("001234321000", controladora.executar("..P...O....."));
 	}
 	
 	@Test
-	void executarTest2() {
+	public void executarTest2() {
 		Controladora controladora = new Controladora();
 		assertEquals("012345", controladora.executar(".P...."));
 	}
 	
 	@Test
-	void executarTest3() {
+	public void executarTest3() {
 		Controladora controladora = new Controladora();
 		assertEquals("000122222345", controladora.executar("...P.P...P.."));	
 	}
 	
 	@Test
-	void executarTest4() {
+	public void executarTest4() {
 		Controladora controladora = new Controladora();
 		assertEquals("123210", controladora.executar("P..O.."));	
 	}
 	
 	@Test
-	void executarTest5() {
+	public void executarTest5() {
 		Controladora controladora = new Controladora();
 		assertEquals("123333343210", controladora.executar("P..P...PO..."));
 	}
 	
 	@Test
-	void executarTest6() {
+	public void executarTest6() {
 		Controladora controladora = new Controladora();
 		assertEquals("123432344444555", controladora.executar("P...O.O.P...P.."));
 	}
 	
 	@Test
-	void executarTest7() {
+	public void executarTest7() {
 		Controladora controladora = new Controladora();
 		assertEquals("123455433332100", controladora.executar("P.....P.P..P..."));
 	}
 	
 	@Test
-	void executarTest8() {
+	public void executarTest8() {
 		Controladora controladora = new Controladora();
 		assertEquals("000001234555555", controladora.executar("O..O.P......O.."));
 	}
 	
 	@Test
-	void executarTest9() {
+	public void executarTest9() {
 		Controladora controladora = new Controladora();
 		assertEquals("11223", controladora.executar("PPPPP"));
 	}
 	
 	@Test
-	void executarTest10() {
+	public void executarTest10() {
 		Controladora controladora = new Controladora();
 		assertEquals("121212", controladora.executar("P.OOOO"));
 	}
